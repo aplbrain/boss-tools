@@ -25,7 +25,7 @@ import json
 
 
 MIGRATION_BUCKET_DEV = "migrations-dev-boss"
-MIGRATION_BUCKET_PROD = "migrations-prod-boss"
+MIGRATION_BUCKET_PROD = "migrations-bossdb-boss"
 
 bucketLookup = {"endpoint.integration.boss": MIGRATION_BUCKET_PROD,
                 "endpoint.production.boss": MIGRATION_BUCKET_PROD,
